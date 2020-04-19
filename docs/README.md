@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/logo.png
 actionText: 开始阅读 →
-actionLink: /zh/guide/
+actionLink: /guide/
 features:
 - title: vue-cli
   details: 基于node.js，遵守ES2015规范，前后台分离，有效提高开发的效率。同时大多数小程序也是使用vue并遵循vue语法的

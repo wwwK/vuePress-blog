@@ -1,13 +1,18 @@
 module.exports = [
     {
-        text: '懵逼指南', link: '/guide/'
+        text: 'HOME', link: '/'
     },
     {
-        text: '面试宝典', link: '/baodian/',
-        items: [
-            {text: '初级开发篇', link: '/baodian/zero/'},
-            {text: '中高进阶篇', link: '/baodian/high/'},
-        ]
+        text: 'Guide', link: '/guide/'
+    },
+    {
+        text: '运维', link: '/OAndM/',
+    },
+    {
+        text: '后端', link: '/backend/',
+    },
+    {
+        text: '前端', link: '/frontend/'
     },
     {
         text: '工具箱',
@@ -34,4 +39,4 @@ module.exports = [
             }
         ]
     }
-]
+];
