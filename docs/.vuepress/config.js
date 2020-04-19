@@ -8,7 +8,7 @@ module.exports = {
     description: '有道无术，术尚可求，有术无道，止于术',
     // dest: './dist',
     port: '7000',
-    path:'/vuePress-blog/',
+    base:'/vuePress-blog/',
     head: headConfig,
     plugins: pluginsConfig,
     markdown: {

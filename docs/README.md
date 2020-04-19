@@ -16,19 +16,19 @@ footer: © Copyright 2020 sunBT - All Rights Reserved
 <div class="feature">
 <h2>支付宝打赏</h2>
 <p>
-<img src="/images/zfb.jpg">
+<img :src="$withBase('/images/zfb.jpg')"  alt="foo">
 </p>
 </div>
 <div class="feature">
 <h2>微信打赏</h2>
 <p>
-<img src="/images/wx.jpg">
+<img :src="$withBase('/images/wx.jpg')"  alt="foo">
 </p>
 </div>
 <div class="feature">
 <h2>联系方式：QQ</h2>
 <p>
-<img src="/images/qq.jpg">
+<img :src="$withBase('/images/qq.jpg')"  alt="foo">
 </p>
 </div>
 </div>
