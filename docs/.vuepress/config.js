@@ -21,6 +21,8 @@ module.exports = {
         sidebarDepth: 2,
         lastUpdated: '上次更新时间',
         searchMaxSuggestoins: 10,
+        repo: 'https://github.com/1327398885/vuePress-blog',
+        repoLabel: '查看源码',
         serviceWorker: {
             updatePopup: {
                 message: "有新的内容.",

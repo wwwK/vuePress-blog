@@ -10,6 +10,13 @@ module.exports = [
     },
     {
         text: '后端', link: '/backend/',
+        items: [
+            {
+                text: '数据库', link: '/backend/database/'
+            },{
+            text: 'SpringBoot',link:'/backend/springboot/'
+            }
+        ]
     },
     {
         text: '前端', link: '/frontend/'
