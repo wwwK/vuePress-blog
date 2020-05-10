@@ -7,19 +7,39 @@ module.exports = [
     },
     {
         text: '运维', link: '/OAndM/',
+        items: [
+            {
+                text: 'Linux', link: '/OAndM/Linux/'
+            },
+            {
+                text: 'windows', link: '/OAndM/windows/'
+            }
+        ]
     },
     {
         text: '后端', link: '/backend/',
         items: [
             {
-                text: '数据库', link: '/backend/database/'
-            },{
-            text: 'SpringBoot',link:'/backend/springboot/'
+                text: 'Java', link: '/backend/Java/'
+            },
+            {
+                text: 'SpringBoot', link: '/backend/springboot/'
+            },
+            {
+                text: 'database', link: '/backend/database/'
             }
         ]
     },
     {
-        text: '前端', link: '/frontend/'
+        text: '前端', link: '/frontend/',
+        items:[
+            {
+                text: 'WebGIS', link: '/frontend/WebGIS/'
+            },
+            {
+                text: 'Vue', link: '/frontend/Vue/'
+            }
+        ]
     },
     {
         text: '工具箱',
