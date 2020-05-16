@@ -49,9 +49,8 @@ module.exports = {
                 { title: '00-YAML 配置文件语言', path:'/OAndM/docker/docker-compose/00-YAML 配置文件语言'},
                 { title: '01-介绍', path:'/OAndM/docker/docker-compose/01-介绍'},
                 { title: '02-安装', path:'/OAndM/docker/docker-compose/02-安装'},
-                { title: '03-部署应用程序', path:'/OAndM/docker/docker-compose/03-部署应用程序'},
-                { title: '04-常用命令', path:'/OAndM/docker/docker-compose/04-常用命令'},
-                { title: '05-部署Minio', path:'/OAndM/docker/docker-compose/05-部署Minio'},
+                { title: '03-常用命令', path:'/OAndM/docker/docker-compose/03-常用命令'},
+                { title: '04-部署Minio', path:'/OAndM/docker/docker-compose/04-部署Minio'},
             ]
         },
         {
