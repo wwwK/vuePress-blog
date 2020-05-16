@@ -55,6 +55,7 @@ module.exports = {
                 { title: '02-安装', path:'/OAndM/docker/docker-compose/02-安装'},
                 { title: '03-常用命令', path:'/OAndM/docker/docker-compose/03-常用命令'},
                 { title: '04-部署Minio', path:'/OAndM/docker/docker-compose/04-部署Minio'},
+                { title: '05-部署ElasticSearch', path:'/OAndM/docker/docker-compose/05-部署ElasticSearch'},
             ]
         },
         {
