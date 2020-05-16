@@ -39,7 +39,11 @@ module.exports = {
             title: 'Docker',
             collapsable: true,
             children: [
-                '/OAndM/docker/docker/'
+                { title: '01-介绍', path:'/OAndM/docker/docker/01-介绍'},
+                { title: '02-Docker架构', path:'/OAndM/docker/docker/02-Docker架构'},
+                { title: '03-安装', path:'/OAndM/docker/docker/03-安装'},
+                { title: '04-常用命令', path:'/OAndM/docker/docker/04-常见命令'},
+                { title: '部署nginx', path:'/OAndM/docker/docker/100-部署nginx'},
             ]
         },
         {
@@ -57,7 +61,9 @@ module.exports = {
             title: 'Kubernetes',
             collapsable: true,
             children: [
-                '/OAndM/docker/kubernetes/'
+                { title: '01-介绍', path:'/OAndM/docker/kubernetes/01-介绍'},
+                { title: '02-安装', path:'/OAndM/docker/kubernetes/02-安装'},
+                { title: '03-常用命令', path:'/OAndM/docker/kubernetes/03-常用命令'},
             ]
         }
     ],
