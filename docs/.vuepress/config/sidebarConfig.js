@@ -17,6 +17,20 @@ module.exports = {
         }
     ],
     //后台
+    //SpringBoot
+    '/backend/springboot/':[
+        {
+            title: 'SpringBoot入门',
+            collapsable: true,
+            children: [
+                { title: '快速搭建项目', path:'/backend/springboot/入门/快速搭建项目'},
+                { title: 'SpringBoot单元测试', path:'/backend/springboot/入门/SpringBoot单元测试'},
+                { title: 'SpringBoot常用配置', path:'/backend/springboot/入门/SpringBoot常用配置'},
+            ]
+        },
+    ],
+
+    //数据库
     '/backend/database/': [
         {
             title: 'MYSQL',
@@ -35,6 +49,8 @@ module.exports = {
             ]
         }
     ],
+
+
     //Docker
     '/OAndM/docker/': [
         {
@@ -79,8 +95,19 @@ module.exports = {
             title: 'Cesium',
             collapsable: true,
             children: [
-                { title: '01-介绍', path:'/frontend/WebGIS/Cesium/01-介绍'},
-                { title: '02-安装', path:'/frontend/WebGIS/Cesium/02-安装'},
+                { title: '介绍', path:'/frontend/WebGIS/Cesium/01-介绍'},
+                { title: '安装', path:'/frontend/WebGIS/Cesium/02-安装'},
+            ]
+        },
+        {
+            title: 'ThreeJS',
+            collapsable: true,
+            children: [
+                { title: '介绍', path:'/frontend/WebGIS/ThreeJS/介绍'},
+                { title: '创建实例', path:'/frontend/WebGIS/ThreeJS/创建实例'},
+                { title: '全景图片-视频', path:'/frontend/WebGIS/ThreeJS/全景图片-视频'},
+                { title: '贴图-视频', path:'/frontend/WebGIS/ThreeJS/贴图-视频'},
+                { title: '贴图-动态图片', path:'/frontend/WebGIS/ThreeJS/贴图-动态图片'},
             ]
         }
     ],

@@ -6,7 +6,7 @@ module.exports = [
         text: 'Guide', link: '/guide/'
     },
     {
-        text: '运维', link: '/OAndM/',
+        text: '运维',
         items: [
             {
                 text: 'Linux', link: '/OAndM/Linux/'
@@ -20,7 +20,7 @@ module.exports = [
         ]
     },
     {
-        text: '后端', link: '/backend/',
+        text: '后端',
         items: [
             {
                 text: 'Java', link: '/backend/Java/'
@@ -34,7 +34,7 @@ module.exports = [
         ]
     },
     {
-        text: '前端', link: '/frontend/',
+        text: '前端',
         items:[
             {
                 text: 'WebGIS', link: '/frontend/WebGIS/'
