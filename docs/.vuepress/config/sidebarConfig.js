@@ -1,4 +1,5 @@
 module.exports = {
+    //简介
     '/guide/': [
         {
             title: 'one',
@@ -15,7 +16,7 @@ module.exports = {
             ]
         }
     ],
-
+    //后台
     '/backend/database/': [
         {
             title: 'MYSQL',
@@ -34,6 +35,7 @@ module.exports = {
             ]
         }
     ],
+    //Docker
     '/OAndM/docker/': [
         {
             title: 'Docker',
@@ -56,6 +58,10 @@ module.exports = {
                 { title: '03-常用命令', path:'/OAndM/docker/docker-compose/03-常用命令'},
                 { title: '04-部署Minio', path:'/OAndM/docker/docker-compose/04-部署Minio'},
                 { title: '05-部署ElasticSearch', path:'/OAndM/docker/docker-compose/05-部署ElasticSearch'},
+                { title: '06-部署seafile', path:'/OAndM/docker/docker-compose/06-部署seafile'},
+                { title: '07-部署arcgisserver', path:'/OAndM/docker/docker-compose/07-部署arcgisserver'},
+                { title: '08-部署mysql', path:'/OAndM/docker/docker-compose/08-部署mysql'},
+                { title: '09-部署redis', path:'/OAndM/docker/docker-compose/09-部署redis'},
             ]
         },
         {
@@ -68,5 +74,14 @@ module.exports = {
             ]
         }
     ],
-
+    '/frontend/WebGIS/': [
+        {
+            title: 'Cesium',
+            collapsable: true,
+            children: [
+                { title: '01-介绍', path:'/frontend/WebGIS/Cesium/01-介绍'},
+                { title: '02-安装', path:'/frontend/WebGIS/Cesium/02-安装'},
+            ]
+        }
+    ],
 };
