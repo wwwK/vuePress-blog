@@ -23,9 +23,17 @@ module.exports = {
             title: 'SpringBoot入门',
             collapsable: true,
             children: [
-                { title: '快速搭建项目', path:'/backend/springboot/入门/快速搭建项目'},
-                { title: 'SpringBoot单元测试', path:'/backend/springboot/入门/SpringBoot单元测试'},
-                { title: 'SpringBoot常用配置', path:'/backend/springboot/入门/SpringBoot常用配置'},
+                { title: '快速搭建项目', path:'/backend/springboot/start/快速搭建项目'},
+                { title: 'SpringBoot单元测试', path:'/backend/springboot/start/SpringBoot单元测试'},
+                { title: 'SpringBoot常用配置', path:'/backend/springboot/start/SpringBoot常用配置'},
+            ]
+        },
+        {
+            title: 'SpringBoot技巧',
+            collapsable: true,
+            children: [
+                { title: '静态文件和lib存放包外', path:'/backend/springboot/skill/静态文件和lib存放包外'},
+
             ]
         },
     ],

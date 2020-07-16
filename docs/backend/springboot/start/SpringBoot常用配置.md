@@ -24,7 +24,7 @@
 
 再次运行这个程序
 
-```
+```shell script
 ${AnsiColor.BRIGHT_RED}
 ////////////////////////////////////////////////////////////////////
 //                          _ooOoo_                               //
@@ -64,14 +64,14 @@ Spring Boot 项目使用一个全局的配置文件 `application.properties` 或
 
 修改 Tomcat 的端口为 9090，并将默认的访问路径 "/" 修改为 "boot"，可以在 `application.properties` 中添加：
 
-```
+```yaml
 server.port=9090
 server.context-path=/boot
 ```
 
 或在 application.yml 中添加：
 
-```
+```yaml
 server:
   port: 9090
   context-path: /boot
@@ -92,7 +92,7 @@ Spring Boot 对各种日志框架都做了支持，我们可以通过配置来�
 
 默认情况下，Spring Boot 使用 Logback 作为日志框架
 
-```
+```yaml
 logging:
   file: ../logs/spring-boot-hello.log
   level.org.springframework.web: DEBUG
